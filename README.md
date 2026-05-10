@@ -71,8 +71,6 @@ Dense (vocab_size=10,000, softmax)
 └── README.md
 ```
 
-> **Note:** The trained model files (`.keras`) and tokenizer files (`.pickle`) are not included due to file size. Run the notebook to generate them, then place them in the root directory before running the app.
-
 ---
 
 ## Quickstart
@@ -93,19 +91,6 @@ gutenberg_model_tokenizer.pickle
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```
-
----
-
-## Requirements
-
-```
-tensorflow>=2.15
-tensorflow-datasets
-nltk
-streamlit
-numpy
-matplotlib
 ```
 
 ---
